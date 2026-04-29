@@ -178,7 +178,7 @@ const products = sanityProducts.length > 0 ? sanityProducts : localProducts;
     box-shadow: 0 0 20px rgba(74, 159, 216, 0.1);
   }
 
-  .cat-card__bg {
+  :global(.cat-card__bg) {
     position: absolute;
     inset: 0;
     width: 100%;
@@ -189,12 +189,12 @@ const products = sanityProducts.length > 0 ? sanityProducts : localProducts;
     z-index: 0;
   }
 
-  .cat-card:hover .cat-card__bg {
+  .cat-card:hover :global(.cat-card__bg) {
     opacity: 0.25;
     transform: scale(1.08);
   }
 
-  .cat-card.active .cat-card__bg {
+  .cat-card.active :global(.cat-card__bg) {
     opacity: 0.2;
   }
 
