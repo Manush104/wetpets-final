@@ -1,8 +1,8 @@
 {
-	"compatibility_date": "2026-04-23",
-	"compatibility_flags": ["global_fetch_strictly_public"],
-	"name": "wetpets-final",
-	"main": "@astrojs/cloudflare/entrypoints/server",
+	"compatibility_date": "2024-04-03",
+	"compatibility_flags": ["nodejs_compat"],
+	"name": "wetpets-kaustav-code",
+	"main": "./dist/_worker.js",
 	"assets": {
 		"directory": "./dist",
 		"binding": "ASSETS"
