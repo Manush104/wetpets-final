@@ -17,7 +17,7 @@ const searchTerms = [
 <footer class="footer" id="footer">
   <div class="container footer__top">
     <div class="footer__brand">
-      <a href="/" class="footer__logo">
+      <a href={`${import.meta.env.BASE_URL}/`} class="footer__logo">
         <span class="footer__logo-mark">WP</span>
         <div>
           <p class="footer__logo-name">Wet Pets</p>
@@ -34,20 +34,20 @@ const searchTerms = [
       <div class="footer__col">
         <p class="footer__col-title">Pages</p>
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/products">Products</a></li>
-          <li><a href="/about">About Us</a></li>
-          <li><a href="/contact">Contact</a></li>
+          <li><a href={`${import.meta.env.BASE_URL}/`}>Home</a></li>
+          <li><a href={`${import.meta.env.BASE_URL}/products`}>Products</a></li>
+          <li><a href={`${import.meta.env.BASE_URL}/about`}>About Us</a></li>
+          <li><a href={`${import.meta.env.BASE_URL}/contact`}>Contact</a></li>
         </ul>
       </div>
 
       <div class="footer__col">
         <p class="footer__col-title">Products</p>
         <ul>
-          <li><a href="/products?cat=livestock">Livestock</a></li>
-          <li><a href="/products?cat=tanks">Tanks & Furniture</a></li>
-          <li><a href="/products?cat=equipment">Equipment</a></li>
-          <li><a href="/products?cat=maintenance">Maintenance</a></li>
+          <li><a href={`${import.meta.env.BASE_URL}/products?cat=livestock`}>Livestock</a></li>
+          <li><a href={`${import.meta.env.BASE_URL}/products?cat=tanks`}>Tanks & Furniture</a></li>
+          <li><a href={`${import.meta.env.BASE_URL}/products?cat=equipment`}>Equipment</a></li>
+          <li><a href={`${import.meta.env.BASE_URL}/products?cat=maintenance`}>Maintenance</a></li>
         </ul>
       </div>
 
